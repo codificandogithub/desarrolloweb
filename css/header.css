@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.header{
+    background-color:rgba(255, 255, 255,0.9);
+    height: 80px;
+}
+
+.h100{
+    height: 100%;
+}
+
+/*Selector por id*/
+#logo{
+    width: 200px;
+
+}
+
+
+/*Elementos flexibles o flex box*/
+
+.flex{
+    display: flex;
+}
+
+.flex--izq{
+    justify-content: left;
+}
+
+.flex--der{
+    justify-content: right;
+}
+
+.flex--centrarh{
+    justify-content: center;
+}
+
+.flex--centrarv{
+    align-items: center;
+}
+
+.flex--gap{
+    gap: 1rem;
+}

@@ -5,28 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Clinica veterinaria, Hospital veterinario."/>
     <meta name="keywords" content="Veterinaria, Medicamentos para cachorros, Operaciones Veterinarias" />
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/banner.css">
     <title>Clinica</title>
   </head>
   <body>
     <!--Header-->
-    <header>
-      <img src="img/paginaInicial/logo.svg" width="250" alt="logo">
+    <header class="header">
+      <div class="container h100 flex flex--izq">
+        <img src="img/paginaInicial/logo.svg" id="logo" alt="logo">        
+      </div>
     </header>
 
     <!--Navegación-->
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="nav fondo">
+      <div class="container h100 flex flex--der flex--centrarv">
+        <ul class="nav__list flex flex--der flex--gap">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>      
     </nav>
 
-    <h1>
-      Inicio, clinica veterinaria
-    </h1>
+    <div class="banner">
+      <div class="container h100 flex flex--centrarv flex--centrarh">
+        <div class="banner__info text--color--p">
+            <hgroup>
+              <h3>Bienvenidos a MasterPets</h3>
+              <h1>AQUÍ AMAMOS A TU MASCOTA</h1>
+              <h3>Contamos con la más completa linea de soluciones, a un precio accesible.</h3>
+            </hgroup>
+            <a href="" class="boton fondo">CONTÁCTANOS</a>
+        </div>
+        <img src="img/paginaInicial/dog_1.png" id="dog" alt="">
+      </div>
+    </div>
 
     <!--Banner-->
   </body>

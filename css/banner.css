@@ -1,0 +1,18 @@
+.banner{
+    background-image: url("/img/paginaInicial/fondo_slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#dog{
+    width: 300px;
+}
+
+.boton{
+    color: white;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+/*Limpiar elementos con selector universal*/
+
+*{
+    /*Listar propiedades con su valor correspondiente o necesario*/
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+/*Implentar selector clase o class*/
+.fondo{
+    background-color: #0095e5;
+}
+
+/*colores de texto utilizados*/
+.text--color--p{
+    color: white;
+}
+
+.text--color--s{
+    color: #0095e5;
+}
+
+/*Alineacion de texto*/
+.text--centrar{
+    text-align: center;
+}
+
+.text--izquierda{
+    text-align: left;
+}
+
+.text--justificar{
+    text-align: justify;
+}
+
+/*Container*/
+.container{
+    margin: auto;
+    max-width: 1200px;    
+    width: 95%;
+}
